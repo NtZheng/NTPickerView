@@ -14,6 +14,16 @@ typedef void(^maskClickAction)(void);
 
 @interface NTPickerView : UIView
 
+/*
+ * 将实现细节封装为一个类方法
+ *
+ * @param view : 父视图
+ * @param array : 数据源
+ * @param confirmButtonAction : 点击确认按钮回调的方法
+ * @param cancelButtonAction : 点击取消按钮回调的方法
+ * @param maskClickAction : 点击背景回调的方法
+ */
+
 + (void)showPickerViewAddedTo :(UIView *)view dataArray: (NSArray *)array
                 confirmAction :(confirmButtonAction)confrimButtonAction
                  cancelAction :(cancelButtonAction)cancelButtonAction
