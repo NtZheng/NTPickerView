@@ -2,9 +2,8 @@
 这是一个封装的UIPickerView，用于单项选择
 
 * 使用方法
-
-#####1、导入NTPickerView.h和NTPickerView.m文件
-#####2、直接使用类方法
+##### 1、导入NTPickerView.h和NTPickerView.m文件
+##### 2、直接使用类方法
 
 ```
 /*
