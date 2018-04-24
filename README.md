@@ -5,7 +5,7 @@
 ##### 1、导入NTPickerView.h和NTPickerView.m文件
 ##### 2、直接使用类方法
 
-```
+```objc
 /*
  * 将实现细节封装为一个类方法
  *
